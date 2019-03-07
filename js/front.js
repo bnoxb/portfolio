@@ -180,7 +180,7 @@ $(function () {
     delayTime = 0;
 
     $('[data-animate]').waypoint(function (direction) {
-        delayTime += 250;
+        delayTime += 50;
 
         var element = $(this.element);
 
