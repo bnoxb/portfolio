@@ -14,6 +14,8 @@ function sendRequests(){
     get('https://cors-anywhere.herokuapp.com/https://orderve.herokuapp.com');
     get('https://cors-anywhere.herokuapp.com/https://safe-brook-56718.herokuapp.com');
     get('https://cors-anywhere.herokuapp.com/https://sheltered-atoll-58604.herokuapp.com');
+    get('https://cors-anywhere.herokuapp.com/https://condue-re.herokuapp.com');
+    get('https://cors-anywhere.herokuapp.com/https://condue-re-express.herokuapp.com');
     console.log('There will be some errors here.  I am sending requests to all my websites to wake-up their free heroku servers.  The errors here are from doing that.');
 }
 

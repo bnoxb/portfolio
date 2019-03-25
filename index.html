@@ -41,8 +41,8 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
               <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
-              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Skills</a></li>
-              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My story</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link link-scroll">Skills</a></li>
+              <li class="nav-item"><a href="#my-story" class="nav-link link-scroll">My story</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
             </ul>
           </div>
@@ -55,6 +55,133 @@
         <div data-animate="fadeInDown" class="logo"><img src="img/rob-portfolio-brand.png" alt="logo" width="300"></div>
         <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello, My Name is Robbie</h1>
         <p data-animate="slideInUp" class="h3 text-shadow text-400">I am a web developer that creates websites that will meet the user’s needs in an efficient, effective and creative way.</p>
+      </div>
+    </section>
+
+    <section id="my-story">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My Story</h2>
+            <p data-animate="fadeInUp" class="lead">Since I have become a web developer, I have learned how to learn.  The secret isn't focusing on what the tool does, but rather how the tool works.  These projects will tell my story...</p>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="games">Games</a></li>
+            <li><a href="#" data-filter="web-development">Applications</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+                  <div data-category="games" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/horatio-profile.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Horagotchi</h3>
+                            <!-- <p>My first project at General Assembly: A Tamagotchi</p> -->
+                          </div>
+                        </div></a>
+                      <div data-images="img/horagotchi-screenshot.png" class="sr-only reference-description">
+                        <p>My first real project.  My cohort and I were given the task of creating our very own tamagotchi.  A Tamagotchi was a 90's toy that helped kids learn about responsiblity. You must take care of it, feeding it, play with it, and put to sleep, so it can grow.</p>
+                        <p>This was the first program that I had to design from scratch.  I had to take a vision that I had for the project and design it to meet the requirements of the class project.  I chose to base the aesthetics of my app from a sci-fi computer game called Endless Space 2.  This project reaffirmed my new love for programming.</p>
+                        <p class="buttons text-center"><a href="https://bnoxb.github.io/horagotchi/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/horagotchi" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div data-category="games" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/tower-battle-logo.png" alt="Tower Battle" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Tower-Battle</h3>
+                            <!-- <p>Second project at General Assembly: Javascript Browser Game</p> -->
+                          </div>
+                        </div></a>
+                      <div data-images="img/tower-battle-0.png,img/tower-battle-1.png,img/tower-battle-2.png" class="sr-only reference-description">
+                        <p>The Second project at GA.  This project was intended to be a browser game of any type.  I was in charge of every aspect of designing the game.  To start off I had to pick something that would be challenging and allow me to learn a lot of new things.  I wanted to get practise with classes in javascript and so I created Tower-Battle.</p>
+                        <p>Tower-Battle is a game where the player can pick from three different unit types. The player must create units to walk across the game board and destroy the demon tower.  I planned on making each unit its own object instantiated from different classes, that way it would be scaleable and simple for me to change stats, or even create new unit types.  There is a "research" feature that allows the player to upgrade the stats of units.  I learned a lot from this project, classes and how powerful they are. Proper planning is crucial before you start a project, so you can structure everything in the best way.  This is especially important when you want your app to be scaleable.</p>
+                        <p>This project was great because I had to explore JS on my own.  Figuring out what techniques to use to accomplish my goals for this game.  There was also a lot of complicated problems, specific to the game that had to be overcome.  The few days I had to make this game were definetely a lot of fun!</p>
+                        <p class="buttons text-center"><a href="https://bnoxb.github.io/tower-battle/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/tower-battle" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/orderve-logo.png" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Orderve</h3>
+                            <!-- <p>Short project description goes here...</p> -->
+                          </div>
+                        </div></a>
+                      <div data-images="img/orderve-screenshot-1.png,img/orderve-screenshot-2.png" class="sr-only reference-description">
+                        <p>This is my third project at General Assembly, Orderve.  For this project I was put into a team and we had to create an application that has a database and RESTful routes.  We used EJS templates, Node.js, Express, Mongoose and MongoDB. </p>
+                        <p>The concept we picked for this app: to match people looking for chefs, bartenders or servers for an event, with other people with those skills that are interested in making some extra money. So, the host of an event can post their event on the app, list what services they need, and people can make a “Bid” on the event.</p>
+                        <p>Orderve was a challenging project.  It was our first time making a database with models and routes.  Also, we were trying to learn how to program with a new language. On top of all that, it was the most complex website we had made up to that point.   We decided to implement an agile work environment.  This was paramount to our success in our first team application.   This project was awesome,  I got valuable team experience, programming experience and created my first full-stack app!</p>
+                        <p class="buttons text-center"><a href="https://orderve.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/orderve" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/condue-logo.png" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Condue</h3>
+                            <!-- <p>Short project description goes here...</p> -->
+                          </div>
+                        </div></a>
+                      <div data-images="img/condue-screenshot-1.png,img/condue-screenshot-2.png,img/condue-screenshot-3.png" class="sr-only reference-description">
+                        <p>Condue, the fourth project while attending General Assembly.  The scope of this project was to learn how to use React.js and integrate it with an Express back-end.  I had to include a feature that has full CRUD functionality with an API that I created, and include a feature that makes a third party API request.  I used React.js, Express, Mongoose, MongoDB, and Reactstrap for this project.</p>
+                        <p>I chose to create a website, that a restaurant might have as their website.  I created a fake restaurant called Condue, and its website you can make reservations, reviews and check the weather so you can plan a “Patio Day”.   This project was challenging because I had to learn how to code an app that uses a language, which has an entirely different type of programming style: functional programming.   The biggest challenge was learning how to pass data from one component to another further up, or down in the chain.</p>
+                        <p>In the end, I learned a lot about React.js and continued to develop my programming skills.  React is an amazing framework to work with and working with third party API’s is a lot of fun.</p>
+                        <p class="buttons text-center"><a href="https://condue-app.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/condue-app" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository React</a><a href="https://github.com/bnoxb/condue-express" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository Back-End</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/airplane-image.jpg" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">TravlTrakr</h3>
+                            <p>Back-End Refactor</p>
+                          </div>
+                        </div></a>
+                      <div data-images="img/travltrakr-screenshot-1.png,img/travltrakr-screenshot-2.png,img/travltrakr-screenshot-3.png" class="sr-only reference-description">
+                        <p>The fifth project in my journey through General Assembly is called TravlTrakr.  This project was an interesting one, bringing lots of new challenges to overcome.  For this I used React.js, SQL, Java and SpringBoot.  The Idea for this project was to take another student’s project and refactor it to use Java Springboot on the back-end.</p>
+                        <p>Getting a solid plan for this project was key.  I had to make sure that I knew how everything connected in the app that I was assigned to refactor.  I spent a lot of time reading through his code, understanding how everything was structured.  Once I had a good understanding of the other students’ code I was able to begin rebuilding the backend.  Some of the most challenging things I dealt with on this project were, making a third party API call using java, and refactoring some of his front-end to be able to work with a SQL database instead of a MongoDB.   Accomplishing these tasks forced me to learn a lot about how Java and Springboot work to communicate with APIs.</p>
+                        <p>Basically this app helps users plan their trips abroad by finding restaurants near where they are planning to go.  The user inputs where they are traveling to, and the dates they will be there.  After that a google map is loaded with markers showing the locations of all restaurants in the area, randomly choosing ones based on number of reviews, hot and new or simply the best in the area.</p>
+                        <p class="buttons text-center"><a href="https://safe-brook-56718.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/travl-trakr-react" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository React</a><a href="https://github.com/bnoxb/travlTrackr-java" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository Back-End</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
+                    <div class="reference"><a href="#"><img src="img/condue-re-logo.png" alt="" class="img-fluid">
+                        <div class="overlay">
+                          <div class="inner">
+                            <h3 class="h4 reference-title">Condue:RE</h3>
+                          </div>
+                        </div></a>
+                      <div data-images="img/condue-re-screenshot-01.png,img/condue-re-screenshot-02.png" class="sr-only reference-description">
+                        <p>For my last project at General Assembly I decided to add some new features to my previous project: Condue.  I wanted to add some more functionality, just so I could get experience doing some cool tricks.</p>
+                        <p>I wanted to have all the benefits of a user being logged in, without the user having to login.  The best solution was to use a one click authentication.  At this point I really wanted to learn about how to use a real time database. Lastly, I wanted to design my own calendar, mainly because I wanted to learn more about creating tools.</p>
+                        <p>So for Condue:RE I added an interactive calendar that will let you make or check reservations, this depends on whether or not your logged in as a user or admin.  To log in as a user, you just have to click login and you can use your google credentials.  Lastly, I added a live chat feature in the About page. Anyone can make an admin account at this point to test it out.</p>
+                        <p class="buttons text-center"><a href="https://condue-re.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/condue-re" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository React</a><a href="https://github.com/bnoxb/condue-express-re" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository Back-End</a></p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- About-->
@@ -74,7 +201,7 @@
       </div>
     </section>
     <!-- Skills-->
-    <section id="services" class="bg-gradient services-section">
+    <section id="skills" class="bg-gradient services-section">
       <div class="container">
         <header class="text-center">
           <h2 data-animate="fadeInDown" class="title">Skills</h2>
@@ -192,117 +319,7 @@
     *** REFERENCES IMAGE ***
     _________________________________________________________
     -->
-    <section id="references">
-      <div class="container">
-        <div class="col-sm-12">
-          <div class="mb-5 text-center">
-            <h2 data-animate="fadeInUp" class="title">My Story</h2>
-            <p data-animate="fadeInUp" class="lead">Since I have become a web developer, I have learned how to learn.  The secret isn't focusing on what the tool does, but rather how the tool works.  These projects will tell my story...</p>
-          </div>
-          <ul id="filter" data-animate="fadeInUp">
-            <li class="active"><a href="#" data-filter="all">All</a></li>
-            <li><a href="#" data-filter="games">Games</a></li>
-            <li><a href="#" data-filter="web-development">Applications</a></li>
-          </ul>
-          <div id="detail">
-            <div class="row">
-              <div class="col-lg-10 mx-auto"><span class="close">×</span>
-                <div id="detail-slider" class="owl-carousel owl-theme"></div>
-                <div class="text-center">
-                  <h1 id="detail-title" class="title"></h1>
-                </div>
-                <div id="detail-content"></div>
-              </div>
-            </div>
-          </div>
-          <!-- Reference detail-->
-          <div id="references-masonry" data-animate="fadeInUp">
-            <div class="row">
-                  <div data-category="games" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/horatio-profile.jpg" alt="" class="img-fluid">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">Horagotchi</h3>
-                            <!-- <p>My first project at General Assembly: A Tamagotchi</p> -->
-                          </div>
-                        </div></a>
-                      <div data-images="img/horagotchi-screenshot.png" class="sr-only reference-description">
-                        <p>My first real project.  My cohort and I were given the task of creating our very own tamagotchi.  A Tamagotchi was a 90's toy that helped kids learn about responsiblity. You must take care of it, feeding it, play with it, and put to sleep, so it can grow.</p>
-                        <p>This was the first program that I had to design from scratch.  I had to take a vision that I had for the project and design it to meet the requirements of the class project.  I chose to base the aesthetics of my app from a sci-fi computer game called Endless Space 2.  This project reaffirmed my new love for programming.</p>
-                        <p class="buttons text-center"><a href="https://bnoxb.github.io/horagotchi/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/horagotchi" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository</a></p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div data-category="games" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/tower-battle-logo.png" alt="Tower Battle" class="img-fluid">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">Tower-Battle</h3>
-                            <!-- <p>Second project at General Assembly: Javascript Browser Game</p> -->
-                          </div>
-                        </div></a>
-                      <div data-images="img/tower-battle-0.png,img/tower-battle-1.png,img/tower-battle-2.png" class="sr-only reference-description">
-                        <p>The Second project at GA.  This project was intended to be a browser game of any type.  I was in charge of every aspect of designing the game.  To start off I had to pick something that would be challenging and allow me to learn a lot of new things.  I wanted to get practise with classes in javascript and so I created Tower-Battle.</p>
-                        <p>Tower-Battle is a game where the player can pick from three different unit types. The player must create units to walk across the game board and destroy the demon tower.  I planned on making each unit its own object instantiated from different classes, that way it would be scaleable and simple for me to change stats, or even create new unit types.  There is a "research" feature that allows the player to upgrade the stats of units.  I learned a lot from this project, classes and how powerful they are. Proper planning is crucial before you start a project, so you can structure everything in the best way.  This is especially important when you want your app to be scaleable.</p>
-                        <p>This project was great because I had to explore JS on my own.  Figuring out what techniques to use to accomplish my goals for this game.  There was also a lot of complicated problems, specific to the game that had to be overcome.  The few days I had to make this game were definetely a lot of fun!</p>
-                        <p class="buttons text-center"><a href="https://bnoxb.github.io/tower-battle/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/tower-battle" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/orderve-logo.png" alt="" class="img-fluid">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">Orderve</h3>
-                            <!-- <p>Short project description goes here...</p> -->
-                          </div>
-                        </div></a>
-                      <div data-images="img/orderve-screenshot-1.png,img/orderve-screenshot-2.png" class="sr-only reference-description">
-                        <p>This is my third project at General Assembly, Orderve.  For this project I was put into a team and we had to create an application that has a database and RESTful routes.  We used EJS templates, Node.js, Express, Mongoose and MongoDB. </p>
-                        <p>The concept we picked for this app: to match people looking for chefs, bartenders or servers for an event, with other people with those skills that are interested in making some extra money. So, the host of an event can post their event on the app, list what services they need, and people can make a “Bid” on the event.</p>
-                        <p>Orderve was a challenging project.  It was our first time making a database with models and routes.  Also, we were trying to learn how to program with a new language. On top of all that, it was the most complex website we had made up to that point.   We decided to implement an agile work environment.  This was paramount to our success in our first team application.   This project was awesome,  I got valuable team experience, programming experience and created my first full-stack app!</p>
-                        <p class="buttons text-center"><a href="https://orderve.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/orderve" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/condue-logo.png" alt="" class="img-fluid">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">Condue</h3>
-                            <!-- <p>Short project description goes here...</p> -->
-                          </div>
-                        </div></a>
-                      <div data-images="img/condue-screenshot-1.png,img/condue-screenshot-2.png,img/condue-screenshot-3.png" class="sr-only reference-description">
-                        <p>Condue, the fourth project while attending General Assembly.  The scope of this project was to learn how to use React.js and integrate it with an Express back-end.  I had to include a feature that has full CRUD functionality with an API that I created, and include a feature that makes a third party API request.  I used React.js, Express, Mongoose, MongoDB, and Reactstrap for this project.</p>
-                        <p>I chose to create a website, that a restaurant might have as their website.  I created a fake restaurant called Condue, and its website you can make reservations, reviews and check the weather so you can plan a “Patio Day”.   This project was challenging because I had to learn how to code an app that uses a language, which has an entirely different type of programming style: functional programming.   The biggest challenge was learning how to pass data from one component to another further up, or down in the chain.</p>
-                        <p>In the end, I learned a lot about React.js and continued to develop my programming skills.  React is an amazing framework to work with and working with third party API’s is a lot of fun.</p>
-                        <p class="buttons text-center"><a href="https://condue-app.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/condue-app" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository React</a><a href="https://github.com/bnoxb/condue-express" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository Back-End</a></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div data-category="web-development" class="reference-item col-lg-3 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/airplane-image.jpg" alt="" class="img-fluid">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">TravlTrakr</h3>
-                            <p>Back-End Refactor</p>
-                          </div>
-                        </div></a>
-                      <div data-images="img/travltrakr-screenshot-1.png,img/travltrakr-screenshot-2.png,img/travltrakr-screenshot-3.png" class="sr-only reference-description">
-                        <p>The fifth project in my journey through General Assembly is called TravlTrakr.  This project was an interesting one, bringing lots of new challenges to overcome.  For this I used React.js, SQL, Java and SpringBoot.  The Idea for this project was to take another student’s project and refactor it to use Java Springboot on the back-end.</p>
-                        <p>Getting a solid plan for this project was key.  I had to make sure that I knew how everything connected in the app that I was assigned to refactor.  I spent a lot of time reading through his code, understanding how everything was structured.  Once I had a good understanding of the other students’ code I was able to begin rebuilding the backend.  Some of the most challenging things I dealt with on this project were, making a third party API call using java, and refactoring some of his front-end to be able to work with a SQL database instead of a MongoDB.   Accomplishing these tasks forced me to learn a lot about how Java and Springboot work to communicate with APIs.</p>
-                        <p>Basically this app helps users plan their trips abroad by finding restaurants near where they are planning to go.  The user inputs where they are traveling to, and the dates they will be there.  After that a google map is loaded with markers showing the locations of all restaurants in the area, randomly choosing ones based on number of reviews, hot and new or simply the best in the area.</p>
-                        <p class="buttons text-center"><a href="https://safe-brook-56718.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/bnoxb/travl-trakr-react" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository React</a><a href="https://github.com/bnoxb/travlTrackr-java" class="btn btn-outline-primary"><i class="fa fa-github"></i>GitHub Repository Back-End</a></p>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <!-- Customers-->
     <!--  -->
     <!-- Contact-->
