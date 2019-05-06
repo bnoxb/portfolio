@@ -1,1 +1,9 @@
 /* your styles go here */
+.robbie {
+    width: auto;
+    height: 50vh;
+}
+
+.about-robbie {
+    margin-left: 100px;
+}
